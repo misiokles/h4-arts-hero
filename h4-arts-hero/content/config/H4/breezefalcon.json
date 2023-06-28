@@ -1,0 +1,28 @@
+{
+	"breezeFalcon":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Breeze the Falcon",
+			"description": "Breeze the Falcon increases your Scouting radius by +2.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/breezeFalcon.bmp",
+			"map": "H4/map/BREEZEFALCON.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SIGHT_RADIUS", 
+				"val": 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

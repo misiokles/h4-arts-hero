@@ -1,0 +1,27 @@
+{
+	"wingedSandals":
+	{
+		"type": ["HERO"],
+		"slot": "FEET",
+		"class": "MAJOR",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Winged Sandals",
+			"description": "Give all friendly creatures +1 speed in combat. ",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/wingedSandals.bmp",
+			"map": "H4/map/WINGEDSANDALS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "STACKS_SPEED",
+				"val": 1
+			}
+		]
+	}
+}

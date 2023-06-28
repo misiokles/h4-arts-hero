@@ -1,0 +1,32 @@
+{
+	"circletOfWisdom":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MINOR",
+		"value": 5500,	
+		"text":
+		{
+			"name": "Circlet Of Wisdom",
+			"description": "Increases the hero's knowledge by 3, and regenerates 3 spell points per day",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/circletOfWisdom.bmp",
+			"map": "H4/map/CIRCLETOFWISDOM.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 3
+			},
+			{
+				"type": "MANA_REGENERATION",
+				"val": 3
+			}
+		]
+	}
+}

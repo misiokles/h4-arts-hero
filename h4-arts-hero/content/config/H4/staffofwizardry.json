@@ -1,0 +1,32 @@
+{
+	"staffOfWizardry":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value": 6000,
+		"text":
+		{
+			"name": "Staff of Wizardry",
+			"description": "Reduces enemy spell damage resistance by half.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/staffOfWizardry.bmp",
+			"map": "H4/map/STAFFOFWIZARDRY.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val": -50,
+				"valueType": "PERCENT_TO_ALL",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		]
+	}
+}

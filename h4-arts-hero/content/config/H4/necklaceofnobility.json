@@ -1,0 +1,71 @@
+{
+	"necklaceOfNobility":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "MAJOR",
+		"value": 8000,
+		"text":
+		{
+			"name": "Necklace of Nobility",
+			"description": "Doubles the number of all resources produced by hero.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/necklaceOfNobility.bmp",
+			"map": "H4/map/NECKLACEOFNOBILITY.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.wood",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.ore",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.mercury",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.sulfur",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.crystal",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.gems",
+				"val": 100,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"subtype" : 6,
+				"type" : "GENERATE_RESOURCE",
+				"val" : 100,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"apprenticesHandbook":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "TREASURE",
+		"value": 2500,	
+		"text":
+		{
+			"name": "Apprentice's Handbook",
+			"description": "Contains all first level spells.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/apprenticesHandbook.bmp",
+			"map": "H4/map/APPRENTICESHANDBOOK.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELLS_OF_LEVEL",
+				"subtype" : 1,
+				"val": 0
+			}
+		]
+	},
+	"journeymansNotebook":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Journeyman's Notebook",
+			"description": "Contains all second level spells.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/journeymansNotebook.bmp",
+			"map": "H4/map/JOURNEYMANSNOTEBOOK.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELLS_OF_LEVEL",
+				"subtype" : 2,
+				"val": 0
+			}
+		]
+	},
+	"mastersSpellbook":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Master's Spellbook",
+			"description": "Contains all third level spells.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/mastersSpellbook.bmp",
+			"map": "H4/map/MASTERSSPELLBOOK.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELLS_OF_LEVEL",
+				"subtype" : 3,
+				"val": 0
+			}
+		]
+	},
+	"guildmastersCompedium":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Guildmaster's Compendium",
+			"description": "Contains all fourth level spells.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/guildmastersCompendium.bmp",
+			"map": "H4/map/GUILDMASTERSCOMPEDIUM.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELLS_OF_LEVEL",
+				"subtype" : 4,
+				"val": 0
+			}
+		]
+	}
+}

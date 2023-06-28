@@ -1,0 +1,31 @@
+{
+	"mullichsHelm":
+	{
+		"type": ["HERO"],
+		"slot": "HEAD",
+		"class": "MAJOR",
+		"value": 12000,	
+		"text":
+		{
+			"name": "Mullich's Helm of Leadership",
+			"description": "All friendly targets get +1 speed and +2 morale.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/mullichsHelm.bmp",
+			"map": "H4/map/MULLICHSHELM.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "STACKS_SPEED",
+				"val": 1
+			},
+			{
+				"type": "MORALE",
+				"val": 2
+			}
+		]
+	}
+}

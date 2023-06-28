@@ -1,0 +1,29 @@
+{
+	"logbookOfTheMasterSailor":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value": 5000,
+		"text":
+		{
+			"name": "Logbook of the Master Sailor",
+			"description": "Gives a hero +50% movement over the sea.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/logbookOfTheMasterSailor.bmp",
+			"map": "H4/map/LOGBOOK.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : 0,
+				"type" : "MOVEMENT",
+				"val" : 50,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

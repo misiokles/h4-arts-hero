@@ -1,0 +1,32 @@
+{
+	"helmOfPower":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MAJOR",
+		"value": 7000,	
+		"text":
+		{
+			"name": "Helm of Power",
+			"description": "Increases the hero's knowledge by 4, and regenerates 4 spell points per day",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/helmOfPower.bmp",
+			"map": "H4/map/HELMOFPOWER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 4
+			},
+			{
+				"type": "MANA_REGENERATION",
+				"val": 4
+			}
+		]
+	}
+}

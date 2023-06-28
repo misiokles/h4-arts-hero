@@ -1,0 +1,29 @@
+{
+	"surefootedBoots":
+	{
+		"type": ["HERO"],
+		"slot" : "FEET",
+		"class": "TREASURE",
+		"value": 1500,	
+		"text":
+		{
+			"name": "Surefooted Boots",
+			"description": "Increases the hero's movement on land by 150.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/surefootedBoots.bmp",
+			"map": "H4/map/SUREFOOTEDBOOTS.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : 1,
+				"type" : "MOVEMENT",
+				"val" : 150,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

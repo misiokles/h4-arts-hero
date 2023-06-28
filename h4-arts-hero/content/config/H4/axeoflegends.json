@@ -1,0 +1,34 @@
+{
+	"axeOfLegends":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Axe of Legends",
+			"description": "Increases the hero's Attack by 4. All friendly targets do +20% damage.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/axeOfLegends.bmp",
+			"map": "H4/map/AXEOFLEGENDS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 4
+			},
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype": 0,
+				"val": 20,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

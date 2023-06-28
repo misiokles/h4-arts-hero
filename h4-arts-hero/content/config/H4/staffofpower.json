@@ -1,0 +1,33 @@
+{
+	"staffOfPower":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value": 9000,
+		"text":
+		{
+			"name": "Staff of Power",
+			"description": "Increases spell power and spell duration for all creatures in army by 50%.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/staffOfPower.bmp",
+			"map": "H4/map/STAFFOFPOWER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CREATURE_SPELL_POWER",
+				"val": 50,
+				"valueType": "PERCENT_TO_ALL"
+			},
+			{
+				"type": "CREATURE_ENCHANT_POWER",
+				"val": 50,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

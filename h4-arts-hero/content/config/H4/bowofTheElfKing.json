@@ -1,0 +1,35 @@
+{
+	"bowOfTheElfKing":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Bow of the Elf King",
+			"description": "All friendly ranged creatures gain +1 shot in ranged attack.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/bowOfTheElfKing.bmp",
+			"map": "H4/map/BOWOFTHEELFKING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "ADDITIONAL_ATTACK",
+				"val" : 1,
+				"effectRange": "ONLY_DISTANCE_FIGHT",
+				"limiters" :
+				[
+					{
+						"type": "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : ["SHOOTER"]
+					}
+				]
+			}
+		]
+	}
+}

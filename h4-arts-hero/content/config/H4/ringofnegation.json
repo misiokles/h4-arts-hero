@@ -1,0 +1,26 @@
+{
+	"greaterRingOfNegation":
+	{
+		"type": ["HERO"],
+		"slot": "RING",
+		"class": "RELIC",
+		"value": 24000,	
+		"text":
+		{
+			"name": "Greater Ring of Negation",
+			"description": "Allows to cast positive spells regardless of immunities of allied creatures.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfNegation.bmp",
+			"map": "H4/map/RINGOFNEGATION.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "RECEPTIVE"
+			}
+		]
+	}
+}

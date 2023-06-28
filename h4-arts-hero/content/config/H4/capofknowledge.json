@@ -1,0 +1,32 @@
+{
+	"capOfKnowledge":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Cap of Knowledge",
+			"description": "Increases the hero's knowledge by 2, and regenerates 2 spell points per day",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/capOfKnowledge.bmp",
+			"map": "H4/map/CAPOFKNOWLEDGE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 2
+			},
+			{
+				"type": "MANA_REGENERATION",
+				"val": 2
+			}
+		]
+	}
+}

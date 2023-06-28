@@ -1,0 +1,29 @@
+{
+	"davidsSling":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "David's Sling",
+			"description": "All ranged allies will be enchanted with Slayer spell.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/davidsSling.bmp",
+			"map": "H4/map/DAVIDSSLING.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : "spell.slayer",
+				"type" : "ENCHANTED",
+				"val" : 3,
+				"limiters" : ["SHOOTER_ONLY"]
+			}
+		]
+	}
+}

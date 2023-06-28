@@ -1,0 +1,33 @@
+{
+	"ringOfProtection":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Ring of Protection",
+			"description": "Gives all friendly targets +5% damage resistance.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfProtection.bmp",
+			"map": "H4/map/RINGOFPROTECTION.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 0,
+				"val": 5
+			},
+			{
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val": 5
+			}
+		]
+	}
+}

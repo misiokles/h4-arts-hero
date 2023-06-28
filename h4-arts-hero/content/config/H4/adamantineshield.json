@@ -1,0 +1,38 @@
+{
+	"adamantineShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value": 25000,	
+		"text":
+		{
+			"name": "Adamantine Shield",
+			"description": "Gives all friendly targets +25% damage resistance. It also gives the hero +3 Defense. ",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/adamantineShield.bmp",
+			"map": "H4/map/ADAMANTINESHIELD.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 0,
+				"val": 25
+			},
+			{
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val": 25
+			}
+		]
+	}
+}

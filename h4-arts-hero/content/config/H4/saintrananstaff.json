@@ -1,0 +1,48 @@
+{
+	"saintRanansStaff":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 15000,
+		"text":
+		{
+			"name": "Saint Ranan's Staff",
+			"description": "Doubles the effect of all healing spells. Adds expert Resurrection to hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/saintRanansStaff.bmp",
+			"map": "H4/map/SAINTRANANSSTAFF.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.resurrection",
+				"val": 100
+			},
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.cure",
+				"val": 100
+			},
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.animateDead",
+				"val": 100
+			},
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.sacrifice",
+				"val": 100
+			},
+			{
+				"type": "SPELL",
+				"subtype": "spell.resurrection",
+				"val": 3
+			}
+		]
+	}
+}

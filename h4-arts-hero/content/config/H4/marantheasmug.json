@@ -1,0 +1,27 @@
+{
+	"marantheasMug":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MINOR",
+		"value": 4000,	
+		"text":
+		{
+			"name": "Maranthea's Mug",
+			"description": "Gives all friendly targets +3 morale.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/marantheasMug.bmp",
+			"map": "H4/map/MARANTHEASMUG.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "MORALE",
+				"val": 3
+			}
+		]
+	}
+}

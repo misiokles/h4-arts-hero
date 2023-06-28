@@ -1,0 +1,61 @@
+{
+	"name" : "H4 artifacts for hero",
+	"description" : "Artifacts from Heroes of Might & Magic 4",
+	"author": "Graphics: Kuririn, mod : Warmonger",
+	"contact": "http://forum.vcmi.eu/viewtopic.php?t=686",
+	"version" : "1.03",
+	"modType" : "Artifacts",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+	{
+		"1.03"   : [ "Conversion to vcmi-1.2 format" ],
+		"1.02"   : [ "Fixes" ],
+		"1.00"   : [ "Initial release" ]
+	},
+	"artifacts" :
+	[
+		"config/H4/ringofthelementals.json",
+		"config/H4/bowofTheElfKing.json",
+		"config/H4/fisbinofmisfortune.json",
+		"config/H4/swordofthegods.json",
+		"config/H4/adamantineshield.json",
+		"config/H4/wizardsring.json",
+		"config/H4/elementalshields.json",
+		"config/H4/ringofprotection.json",
+		"config/H4/steadfastshield.json",
+		"config/H4/axeoflegends.json",
+		"config/H4/leprechaunsring.json",
+		"config/H4/ringofthewitch.json",
+		"config/H4/ringofnegation.json",
+		"config/H4/wingedsandals.json",
+		"config/H4/helmofcommand.json",
+		"config/H4/mullichshelm.json",
+		"config/H4/helmofpower.json",
+		"config/H4/sevenleagueboots.json",
+		"config/H4/surefootedboots.json",
+		"config/H4/magicamplifier.json",
+		"config/H4/capofknowledge.json",
+		"config/H4/circletofwisdom.json",
+		"config/H4/marantheasMug.json",
+		"config/H4/crystalorb.json",
+		"config/H4/tomesofelements.json",
+		"config/H4/spellbooks.json",
+		"config/H4/archmagescodex.json",
+		"config/H4/mayhemstaff.json",
+		"config/H4/saintrananstaff.json",
+		"config/H4/staffofpower.json",
+		"config/H4/staffofwizardry.json",
+		"config/H4/staffoddeath.json",
+		"config/H4/necklaceofnobility.json",
+		"config/H4/sextant.json",
+		"config/H4/logbook.json",
+		"config/H4/crusadersmace.json",
+		"config/H4/breezefalcon.json",
+		"config/H4/bestiary.json",
+		"config/H4/magesrobe.json",
+		"config/H4/davidssling.json"
+	]
+}

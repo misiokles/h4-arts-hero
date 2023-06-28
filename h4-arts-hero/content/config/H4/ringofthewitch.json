@@ -1,0 +1,30 @@
+{
+	"ringOfTheWitch":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Ring Of The Witch",
+			"description": "Reduces the number of casts of hostile creatures by 1.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfTheWitch.bmp",
+			"map": "H4/map/RINGOFTHEWITCH.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CASTS",
+				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		]
+	}
+}

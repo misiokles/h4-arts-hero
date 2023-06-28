@@ -1,0 +1,38 @@
+{
+	"steadfastShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 15000,	
+		"text":
+		{
+			"name": "Steadfast Shield",
+			"description": "Gives all friendly targets +15% damage resistance. It also gives the hero +3 Defense. ",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/steadfastShield.bmp",
+			"map": "H4/map/STEADFASTSHIELD.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 0,
+				"val": 15
+			},
+			{
+				"type": "GENERAL_DAMAGE_REDUCTION",
+				"subtype": 1,
+				"val": 15
+			}
+		]
+	}
+}

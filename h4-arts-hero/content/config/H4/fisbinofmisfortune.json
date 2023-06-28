@@ -1,0 +1,30 @@
+{
+	"fizbinOfMisfortune":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "MINOR",
+		"value": 2000,	
+		"text":
+		{
+			"name": "Fizbin of Misfortune",
+			"description": "Decreases enemy luck by 2 as long as a hero has it equipped.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/fizbinOfMisfortune.bmp",
+			"map": "H4/map/FIZBINOFMISFORTUNE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "LUCK",
+				"val" : -2,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		]
+	}
+}

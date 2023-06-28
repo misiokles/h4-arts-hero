@@ -1,0 +1,29 @@
+{
+	"crusadersMace":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Crusader's Mace",
+			"description": "All friendly targets do +15% damage.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/crusadersMace.bmp",
+			"map": "H4/map/CRUSADERSMACE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype": 0,
+				"val": 15,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

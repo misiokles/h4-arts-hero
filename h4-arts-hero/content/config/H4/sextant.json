@@ -1,0 +1,29 @@
+{
+	"sextant":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "TREASURE",
+		"value": 2500,
+		"text":
+		{
+			"name": "Sextant",
+			"description": "Gives a hero +25% movement over the sea.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/sextant.bmp",
+			"map": "H4/map/SEXTANT.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : 0,
+				"type" : "MOVEMENT",
+				"val" : 25,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

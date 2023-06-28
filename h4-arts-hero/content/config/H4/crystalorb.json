@@ -1,0 +1,28 @@
+{
+	"crystalOrb":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Crystal Orb",
+			"description": "Crystal Orb increases your Scouting radius by +8.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/crystalOrb.bmp",
+			"map": "H4/map/CRYSTALORB.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SIGHT_RADIUS", 
+				"val": 8,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

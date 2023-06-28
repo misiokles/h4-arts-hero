@@ -1,0 +1,42 @@
+{
+	"ringOfTheElementals":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "RELIC",
+		"value": 12000,	
+		"text":
+		{
+			"name": "Ring of the Elementals",
+			"description": "All Summon Elemental spells create twice as many creatures as normal.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/ringOfTheElementals.bmp",
+			"map": "H4/map/RINGOFTHEELEMENTALS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.fireElemental",
+				"val" : 100
+			},			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.waterElemental",
+				"val" : 100
+			},
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.airElemental",
+				"val" : 100
+			},
+			{
+				"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.earthElemental",
+				"val" : 100
+			}
+		]
+	}
+}

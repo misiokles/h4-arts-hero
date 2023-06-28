@@ -1,0 +1,183 @@
+{
+	"tomeOfLife":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Tome of Life",
+			"description": "Adds expert Resurrection, Cure and Animate Dead to hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/tomeOfLife.bmp",
+			"map": "H4/map/TOMEOFLIFE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.resurrection",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.cure",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.animateDead",
+				"val": 3
+			}
+		]
+	},
+	"tomeOfDeath":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Tome of Death",
+			"description": "Adds expert Sacrifice, Berserk and Frenzy to hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/tomeOfDeath.bmp",
+			"map": "H4/map/TOMEOFDEATH.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.sacrifice",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.berserk",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.frenzy",
+				"val": 3
+			}
+		]
+	},
+	"tomeOfChaos":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Tome of Chaos",
+			"description": "Adds expert Armageddon, Implosion and Chain Lightning to hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/tomeOfChaos.bmp",
+			"map": "H4/map/TOMEOFCHAOS.def"
+
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.armageddon",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.implosion",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.chainLightning",
+				"val": 3
+			}
+		]
+	},
+	"tomeOfOrder":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Tome of Order",
+			"description": "Adds expert Clone, Teleport and Force Field to hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/tomeOfOrder.bmp",
+			"map": "H4/map/TOMEOFORDER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.clone",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.teleport",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.forceField",
+				"val": 3
+			}
+		]
+	},
+	"tomeOfNature":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "MAJOR",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Tome of Nature",
+			"description": "Adds expert Dispel, Quick Sand and Town Portal to hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/tomeOfNature.bmp",
+			"map": "H4/map/TOMEOFNATURE.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.dispel",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.quicksand",
+				"val": 3
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.townPortal",
+				"val": 3
+			}
+		]
+	}
+}

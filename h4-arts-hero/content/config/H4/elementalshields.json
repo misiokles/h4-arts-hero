@@ -1,0 +1,126 @@
+{
+	"shieldOfChaos":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Shield of Chaos",
+			"description": "Gives all friendly targets expert Protection From Water. It also gives the hero +3 Defense.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/shieldOfChaos.bmp",
+			"map": "H4/map/SHIELDOFCHAOS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectWater",
+				"val": 3
+			}
+		]
+	},
+	"shieldOfOrder":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Shield of Order",
+			"description": "Gives all friendly targets expert Protection From Fire. It also gives the hero +3 Defense.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/shieldOfOrder.bmp",
+			"map": "H4/map/SHIELDOFORDER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectFire",
+				"val": 3
+			}
+		]
+	},
+	"shieldOfAir":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Shield of Air",
+			"description": "Gives all friendly targets expert Protection From Earth. It also gives the hero +3 Defense.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/shieldOfAir.bmp",
+			"map": "H4/map/SHIELDOFAIR.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectEarth",
+				"val": 3
+			}
+		]
+	},
+	"organicShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MAJOR",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Organic Shield",
+			"description": "Gives all friendly targets expert Protection From Air. It also gives the hero +3 Defense.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/organicShield.bmp",
+			"map": "H4/map/ORGANICSHIELD.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "ENCHANTED",
+				"subtype": "spell.protectAir",
+				"val": 3
+			}
+		]
+	}
+}

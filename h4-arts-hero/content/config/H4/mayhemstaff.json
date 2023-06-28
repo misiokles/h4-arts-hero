@@ -1,0 +1,27 @@
+{
+	"mayhemStaff":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 12000,
+		"text":
+		{
+			"name": "Mayhem Staff",
+			"description": "All destructive spells do 50% more damage.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/mayhemStaff.bmp",
+			"map": "H4/map/MAYHEMSTAFF.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL_DAMAGE",
+				"val": 50
+			}
+		]
+	}
+}

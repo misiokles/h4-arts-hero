@@ -1,0 +1,29 @@
+{
+	"sevenLeagueBoots":
+	{
+		"type": ["HERO"],
+		"slot" : "FEET",
+		"class": "RELIC",
+		"value": 25000,	
+		"text":
+		{
+			"name": "Seven-League Boots",
+			"description": "Increases the hero's movement on land by 1000.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/sevenLeagueBoots.bmp",
+			"map": "H4/map/SEVENLEAGUEBOOTS.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : 1,
+				"type" : "MOVEMENT",
+				"val" : 1000,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

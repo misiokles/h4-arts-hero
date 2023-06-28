@@ -1,0 +1,31 @@
+{
+	"staffOfImminentDeath":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 15000,
+		"text":
+		{
+			"name": "Staff of Imminent Death",
+			"description": "Reduces enemy magic resistance by half.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/staffOfDeath.bmp",
+			"map": "H4/map/STAFFOFDEATH.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "MAGIC_RESISTANCE",
+				"val": -50,
+				"valueType": "PERCENT_TO_ALL",
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		]
+	}
+}

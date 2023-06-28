@@ -1,0 +1,39 @@
+{
+	"swordOfTheGods":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 25000,	
+		"text":
+		{
+			"name": "Sword of the Gods",
+			"description": "Increases the hero's Attack and Defense by 3. All friendly targets do +25% damage.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/swordOfGods.bmp",
+			"map": "H4/map/SWORDOFGODS.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 3
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 3
+			},
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype": 0,
+				"val": 25,
+				"valueType": "PERCENT_TO_ALL"
+			}
+		]
+	}
+}

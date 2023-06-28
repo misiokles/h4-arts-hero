@@ -1,0 +1,27 @@
+{
+	"magicAmplifier":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MINOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Magic Amplifier",
+			"description": "Increases the number of casts of all creatures in your army by 1.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/magicAmplifier.bmp",
+			"map": "H4/map/MAGICAMPLIFIER.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "CASTS",
+				"val": 1
+			}
+		]
+	}
+}

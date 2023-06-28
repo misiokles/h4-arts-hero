@@ -1,0 +1,32 @@
+{
+	"wizardsRing":
+	{
+		"type": ["HERO"],
+		"slot" : "RING",
+		"class": "TREASURE",
+		"value": 1500,	
+		"text":
+		{
+			"name": "Wizard's Ring",
+			"description": "Increases the hero's knowledge by 1, and regenerates 1 spell point per day",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/wizardsRing.bmp",
+			"map": "H4/map/WIZARDSRING.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 1
+			},
+			{
+				"type": "MANA_REGENERATION",
+				"val": 1
+			}
+		]
+	}
+}

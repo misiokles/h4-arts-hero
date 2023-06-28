@@ -1,0 +1,43 @@
+{
+	"bestiary":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "MINOR",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Bestiary",
+			"description": "Adds all Summon Elementals hero's spellbook.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/bestiary.bmp",
+			"map": "H4/map/BESTIARY.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.fireElemental",
+				"val": 0
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.earthElemental",
+				"val": 0
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.waterElemental",
+				"val": 0
+			},
+			{
+				"type": "SPELL",
+				"subtype" : "spell.airElemental",
+				"val": 0
+			}
+		]
+	}
+}

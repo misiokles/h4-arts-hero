@@ -1,0 +1,35 @@
+{
+	"archmagesCodex":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 200000,
+		"text":
+		{
+			"name": "Archmage's Codex",
+			"description": "Allows hero to cast all spells in existence on expert level.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "H4/iconsSmall/archmagesCodex.bmp",
+			"map": "H4/map/ARCHMAGESCODEX.def"
+		},
+		"components":
+		[
+			"tomeOfFireMagic",
+			"tomeOfAirMagic",
+			"tomeOfWaterMagic",
+			"tomeOfEarthMagic"
+		],
+		"bonuses":
+		[
+			{
+				"type": "MAGIC_SCHOOL_SKILL",
+				"subtype" : 0,
+				"val": 3
+			}
+		]
+	}
+}

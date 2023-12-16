@@ -20,7 +20,7 @@
 		[
 			{
 				"type": "SPELLS_OF_LEVEL",
-				"subtype" : 1,
+				"subtype" : "spellLevel1",
 				"val": 0
 			}
 		]
@@ -46,7 +46,7 @@
 		[
 			{
 				"type": "SPELLS_OF_LEVEL",
-				"subtype" : 2,
+				"subtype" : "spellLevel2",
 				"val": 0
 			}
 		]
@@ -72,7 +72,7 @@
 		[
 			{
 				"type": "SPELLS_OF_LEVEL",
-				"subtype" : 3,
+				"subtype" : "spellLevel3",
 				"val": 0
 			}
 		]
@@ -98,7 +98,7 @@
 		[
 			{
 				"type": "SPELLS_OF_LEVEL",
-				"subtype" : 4,
+				"subtype" : "spellLevel4",
 				"val": 0
 			}
 		]

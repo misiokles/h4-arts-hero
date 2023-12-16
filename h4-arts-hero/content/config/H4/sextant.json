@@ -19,7 +19,7 @@
 		"bonuses":
 		[
 			{
-				"subtype" : 0,
+				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 25,
 				"valueType" : "ADDITIVE_VALUE"

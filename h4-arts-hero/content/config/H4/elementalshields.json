@@ -20,7 +20,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 3
 			},
 			{
@@ -51,7 +51,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 3
 			},
 			{
@@ -82,7 +82,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 3
 			},
 			{
@@ -113,7 +113,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 3
 			},
 			{

@@ -20,12 +20,12 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 0,
+				"subtype": "attack",
 				"val": 4
 			},
 			{
 				"type": "CREATURE_DAMAGE",
-				"subtype": 0,
+				"subtype": "creatureDamageBoth",
 				"val": 20,
 				"valueType": "PERCENT_TO_ALL"
 			}

@@ -27,7 +27,7 @@
 		[
 			{
 				"type": "MAGIC_SCHOOL_SKILL",
-				"subtype" : 0,
+				"subtype" : "spellSchool.any",
 				"val": 3
 			}
 		]

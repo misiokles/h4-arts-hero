@@ -59,12 +59,6 @@
 				"subtype" : "resource.gems",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
-			},
-			{
-				"subtype" : 6,
-				"type" : "GENERATE_RESOURCE",
-				"val" : 100,
-				"valueType" : "PERCENT_TO_ALL"
 			}
 		]
 	}

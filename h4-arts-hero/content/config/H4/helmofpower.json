@@ -20,7 +20,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 3,
+				"subtype": "knowledge",
 				"val": 4
 			},
 			{

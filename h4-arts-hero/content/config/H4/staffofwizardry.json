@@ -20,7 +20,7 @@
 		[
 			{
 				"type": "SPELL_DAMAGE_REDUCTION",
-				"subtype" : -1,
+				"subtype" : "spellSchool.any",
 				"val": -50,
 				"valueType": "PERCENT_TO_ALL",
 				"propagator": "BATTLE_WIDE",

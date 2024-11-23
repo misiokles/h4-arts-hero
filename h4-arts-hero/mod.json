@@ -3,7 +3,7 @@
 	"description" : "Artifacts from Heroes of Might & Magic 4",
 	"author": "Graphics: Kuririn, mod : Warmonger",
 	"contact": "http://forum.vcmi.eu/viewtopic.php?t=686",
-	"version" : "1.04",
+	"version" : "1.05",
 	"modType" : "Artifacts",
 	"compatibility" :
 	{
@@ -11,10 +11,18 @@
 	},	
 	"changelog" :
 	{
+                "1.05"   : [ "Polish translation added by FallainBlack" ],
 		"1.04"   : [ "Conversion to vcmi-1.4 format" ],
 		"1.03"   : [ "Conversion to vcmi-1.2 format" ],
 		"1.02"   : [ "Fixes" ],
 		"1.00"   : [ "Initial release" ]
+	},
+        "polish" : {
+		"name" : "Artefakty H4 dla bohatera ",
+		"description" : "Artefakty z Heroes of Might & Magic 4",
+		"translations" : [
+			"translation/h4-arts-hero/polish.json"
+		]
 	},
 	"artifacts" :
 	[

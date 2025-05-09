@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Winged Sandals",
-			"description": "Give all friendly creatures +1 speed in combat. ",
-			"event": ""
+			"description": "{Winged Sandals}\r\n\r\nGive all friendly creatures +1 speed.",
+			"event": "While trying to shoot game for dinner, you came across two strange birds fluttering in the treetops. You immediately shot them down with well-aimed shots. Already looking forward to a hearty dinner, you discovered that instead of birds you had knocked down a pair of Winged Sandals. You're so lucky!"
 		},
 		"graphics":
 		{

@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Tome of Life",
-			"description": "Adds expert Resurrection, Cure and Animate Dead to hero's spellbook.",
-			"event": ""
+			"description": "{Tome of Life}\r\n\r\nAdds Expert Resurrection, Cure and Animate Dead to hero's spellbook.",
+			"event": "Like many other pilgrims, you have reached the hut of a monk living in the wilderness. This monk could resurrect people. After a short conversation, the good-natured old man handed you a gift - the Tome of Life. You refused to accept such a gift, but the monk just shrugged and said: ''The book itself chooses who it wants to be with - and I don’t decide anything. Good luck to you!''" //fixme:quotations
 		},
 		"graphics":
 		{
@@ -44,8 +44,8 @@
 		"text":
 		{
 			"name": "Tome of Death",
-			"description": "Adds expert Sacrifice, Berserk and Frenzy to hero's spellbook.",
-			"event": ""
+			"description": "{Tome of Death}\r\n\r\nAdds Expert Sacrifice, Berserk and Frenzy to hero's spellbook.",
+			"event": "A thin man dressed as a sailor walked straight into you; something bit into his chest. ''My fault... I should have thought with my head... After all, I knew... I should have thrown her back into the sea! Normal books don't float so easily on the open sea...'' The sailor suddenly died right before your eyes. Something fell out of his hands - it was the Tome of Death." //fixme: quotation
 		},
 		"graphics":
 		{
@@ -80,8 +80,8 @@
 		"text":
 		{
 			"name": "Tome of Chaos",
-			"description": "Adds expert Armageddon, Implosion and Chain Lightning to hero's spellbook.",
-			"event": ""
+			"description": "{Tome of Chaos}\r\n\r\nAdds Expert Armageddon, Implosion and Chain Lightning to hero's spellbook.",
+			"event": "In search of something edible, even an apple, you rummaged through all your things, when suddenly you came across some strange book. As the name suggests, it was the Tome of Chaos. Well, now everything is clear! This book has a bad reputation for magically passing from one hand to another at the most inopportune moments. It seems that now you are lucky too: at least for a while."
 		},
 		"graphics":
 		{
@@ -117,8 +117,8 @@
 		"text":
 		{
 			"name": "Tome of Order",
-			"description": "Adds expert Clone, Teleport and Force Field to hero's spellbook.",
-			"event": ""
+			"description": "{Tome of Order}\r\n\r\nAdds Expert Clone, Teleport and Force Field to hero's spellbook.",
+			"event": "The masked man rushed past you, throwing something into the nearby bushes along the way. A moment later, a line of warriors rushed behind him, apparently in pursuit of the rider. When everything calmed down, you searched the bushes and found the Tome of Order there."
 		},
 		"graphics":
 		{
@@ -153,8 +153,8 @@
 		"text":
 		{
 			"name": "Tome of Nature",
-			"description": "Adds expert Dispel, Quick Sand and Town Portal to hero's spellbook.",
-			"event": ""
+			"description": "{Tome of Nature}\r\n\r\nAdds Expert Dispel, Quick Sand and Town Portal to hero's spellbook.",
+			"event": "Standing next to a hermit's bookshelf, you were carefully studying his modest library when you discovered a delicate yellow flower growing on the cover of one of the books! Taking a closer look, you recognized this volume as the Tome of Nature. The hermit was kind enough to lend it to you for a while."
 		},
 		"graphics":
 		{

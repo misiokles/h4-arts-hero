@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Wizard's Ring",
-			"description": "Increases the hero's knowledge by 1, and regenerates 1 spell point per day",
-			"event": ""
+			"description": "{Wizard's Ring}\r\n\r\nIncreases the hero's knowledge by 1, and regenerates 1 spell point per day",
+			"event": "You stumbled upon a gang of marauders stealing utensils from a magician's tower. Some carried books, some scrolls, and some wands. You probably wouldn’t have gotten anything, but when you entered the tower, you did find one item in a jug in the kitchen - the Wizard's Ring."
 		},
 		"graphics":
 		{

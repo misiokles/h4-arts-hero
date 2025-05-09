@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Necklace of Nobility",
-			"description": "Doubles the number of all resources produced by hero.",
-			"event": ""
+			"description": "{Necklace of Nobility}\r\n\r\nDoubles the number of all resources produced by hero.",
+			"event": "A very beautiful and richly dressed lady appeared before you. She complained to you that in the last two years she had not had a moment of peace from her fans, and asked you to take the Necklace of Nobility from her. This way she could get rid of her annoying fans and live in solitude for a while. You agreed, feeling a strong desire to hit on this lady."
 		},
 		"graphics":
 		{

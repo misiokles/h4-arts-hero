@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Apprentice's Handbook",
-			"description": "Contains all first level spells.",
-			"event": ""
+			"description": "{Apprentice's Handbook}\r\n\r\nContains all first level spells.",
+			"event": "Stopping at a tavern to grab something to eat, you noticed that one leg of your table was shorter than the others and was propped up by some tattered book. You kicked the book out from under the foot, hid it in your bag and calmly finished your meal. Later, looking at this book, you recognized it as the Apprentice's Handbook."
 		},
 		"graphics":
 		{
@@ -34,8 +34,8 @@
 		"text":
 		{
 			"name": "Journeyman's Notebook",
-			"description": "Contains all second level spells.",
-			"event": ""
+			"description": "{Journeyman's Notebook}\r\n\r\nContains all second level spells.",
+			"event": "Around noon, you stopped at a small stream to cool off when a man approached you, leading two loaded mules. He complained to you that his third mule had run away along with all his provisions, and asked you for some food to get to the nearest city, in exchange for the Journeyman's Notebook. You could have given him food just like that, but you didn’t refuse the Notebook either."
 		},
 		"graphics":
 		{
@@ -60,8 +60,8 @@
 		"text":
 		{
 			"name": "Master's Spellbook",
-			"description": "Contains all third level spells.",
-			"event": ""
+			"description": "{Master's Spellbook}\r\n\r\nContains all third level spells.",
+			"event": "Taking a quick glance at the garden scarecrow, you noticed that one of his arms was moving! Turning around, you saw that the scarecrow was holding a book in its wooden hand. Carefully pulling out the tome, you discovered that it was the Master's Spellbook. But the scarecrow didn’t have it when you passed by!"
 		},
 		"graphics":
 		{
@@ -86,8 +86,8 @@
 		"text":
 		{
 			"name": "Guildmaster's Compendium",
-			"description": "Contains all fourth level spells.",
-			"event": ""
+			"description": "{Guildmaster's Compendium}\r\n\r\nContains all fourth level spells.",
+			"event": "All day long a songbird has been circling above your head. At first it was funny, but later it became annoying. Well, it won’t shut up! Having refreshed yourself, you handed it some corn kernels in your palm. Having sat on your hand to peck some grains, the bird suddenly turned into a weighty book - the Guildmaster's Compendium."
 		},
 		"graphics":
 		{

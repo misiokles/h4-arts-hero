@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Fizbin of Misfortune",
-			"description": "Decreases enemy luck by 2 as long as a hero has it equipped.",
-			"event": ""
+			"description": "{Fizbin of Misfortune}\r\n\r\nDecreases enemy luck by 2.",
+			"event": "A wise woman once asked you: ''What is better, to be successful yourself or to have your enemy fail?'' You thought for a moment, realizing that there was no clear correct answer here, and, after thinking, you said: ''It’s better that my enemy fails in battle. After all, if you are lucky, this does not mean that the battle will be won!'' Smiling, she removed the Fizbin of Misfortune from her neck and handed it to you." //Fixme: quotation
 		},
 		"graphics":
 		{

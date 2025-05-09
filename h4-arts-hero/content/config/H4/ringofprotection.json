@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Ring of Protection",
-			"description": "Gives all friendly targets +5% damage resistance.",
-			"event": ""
+			"description": "{Ring of Protection}\r\n\r\nGives all friendly targets +5% damage resistance.",
+			"event": "You stared at how a crow was attacked by a sparrow guarding her nest. The poor crow circled this way and that, trying to fight off the annoying bird, and as a result dropped some object from its beak. Having picked it up, you realized that you had found the Ring of Protection."
 		},
 		"graphics":
 		{

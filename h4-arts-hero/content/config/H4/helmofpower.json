@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Helm of Power",
-			"description": "Increases the hero's knowledge by 4, and regenerates 4 spell points per day",
-			"event": ""
+			"description": "{Helm of Power}\r\n\r\nIncreases the hero's knowledge by 4, and regenerates 4 spell points per day",
+			"event": "The sorcerer, dressed all in black, insisted that you fight him. You had a choice - accept the challenge or die. But the powers of the magician’s very first spell broke down and struck its caster. He disappeared, enveloped in flames. All that remains of him is the Helm of Power."
 		},
 		"graphics":
 		{

@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "David's Sling",
-			"description": "All ranged allies will be enchanted with Slayer spell.",
-			"event": ""
+			"description": "{David's Sling}\r\n\r\nAll ranged allies are enchanted with Slayer spell.",
+			"event": "At first it seemed to you that it was just a strip of fabric hanging on a bush - a scrap of clothing from some traveler. But it turned out to be the David's Sling. So lucky, so lucky!"
 		},
 		"graphics":
 		{

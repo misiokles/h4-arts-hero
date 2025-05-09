@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Staff of Wizardry",
-			"description": "Reduces enemy spell damage resistance by half.",
-			"event": ""
+			"description": "{Staff of Wizardry}\r\n\r\nReduces enemy spell damage resistance by half.",
+			"event": "A crowd of peasants stopped you with a request to judge their dispute. Should they plant beans or spinach? ''The solution here is simple,'' you say. ''If you can't stand spinach, then plant some beans!'' As a reward, they gave you an old staff, which they dug up in their field. They had no idea that it was the Staff of Wizardry!" //fixme: quotation
 		},
 		"graphics":
 		{

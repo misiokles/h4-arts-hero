@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Helm of Command",
-			"description": "All friendly targets get +5% to their damage and +5% to their damage resitance, and +1 to their speed.",
-			"event": ""
+			"description": "{Helm of Command}\r\n\r\nAll friendly creatures get +5% to their damage and +5% to their damage resitance, and +1 to their speed.",
+			"event": "You have given way to an approaching funeral procession. A column of funeral procession soldiers in polished armor marched past you. Finally, a carriage carrying a coffin with a lady sitting on it came alongside you. She ordered the cart to stop and motioned for you to come. ''These things belonged to my husband. He was a brave man and died performing a great deed. His last wish was for me to give his belongings to a traveler like you. Good luck to you, wanderer!''" //Fixme: quotation
 		},
 		"graphics":
 		{

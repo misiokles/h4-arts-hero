@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Greater Ring of Negation",
-			"description": "Allows to cast positive spells regardless of immunities of allied creatures.",
-			"event": ""
+			"description": "{Greater Ring of Negation}\r\n\r\nAllows to cast positive spells regardless of immunities of allied creatures.",
+			"event": "In the morning you decide to go fishing. While collecting worms under the stones, you found the Greater Ring of Negation."
 		},
 		"graphics":
 		{

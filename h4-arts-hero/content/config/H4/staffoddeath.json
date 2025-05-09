@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Staff of Imminent Death",
-			"description": "Reduces enemy magic resistance by half.",
-			"event": ""
+			"description": "{Staff of Imminent Death}\r\n\r\nReduces enemy magic resistance by half.",
+			"event": "Having sneaked into the necromancers' guild you stole the Staff of Imminent Death from its place on the pedestal. You couldn't let it fall into the wrong hands, could you? And then, without attracting attention, you emerged from the building along with your trophy. There was only one thought running through your head: ''Why can't everything else be that simple?''" //fixme: quotation
 		},
 		"graphics":
 		{

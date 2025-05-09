@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Maranthea's Mug",
-			"description": "Gives all friendly targets +3 morale.",
-			"event": ""
+			"description": "{Maranthea's Mug}\r\n\r\nGives the hero +3 morale.",
+			"event": "You entered the tavern and sat down at the table of a group of already pretty tipsy dwarves. They passed a mug of wine around. The one who took the last sip bought a drink for the next round. After having to buy drinks several times in a row, you didn't feel any remorse about bringing Maranthea's Mug with you."
 		},
 		"graphics":
 		{

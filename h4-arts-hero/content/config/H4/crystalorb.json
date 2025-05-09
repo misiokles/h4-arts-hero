@@ -6,10 +6,10 @@
 		"class": "RELIC",
 		"value": 8000,	
 		"text":
-		{
-			"name": "Crystal Orb",
-			"description": "Crystal Orb increases your Scouting radius by +8.",
-			"event": ""
+		{	
+			"name": "All-Seeing Crystal",
+			"description": "{All-Seeing Crystal}\r\n\r\nAll-Seeing Crystal increases your Scouting radius by +8.",
+			"event": "For many weeks now, a couple of robbers had been robbing merchants on this road. Somehow they always knew who was carrying what, and always let small merchants pass, waiting for the richer ones. It took some time to track them down and hand them over to the authorities. As a reward for this, you took the All-Seeing Crystal, with which the robbers watched the roads."
 		},
 		"graphics":
 		{

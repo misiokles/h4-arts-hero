@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Magic Amplifier",
-			"description": "Increases the number of casts of all creatures in your army by 1.",
-			"event": ""
+			"description": "{Magic Amplifier}\r\n\r\nIncreases the number of casts of all creatures in your army by 1.",
+			"event": "Standing on the side of the road was a very suspicious-looking guy. He invited you to choose one of three boxes at his feet, saying that one of them contained a Magic Amplifier. ''If you guess it, it's yours, but if it's not, give me 1000 gold!'' As you thought about the proposal, you noticed that the ground under one of the boxes was shaking a little. Smiling, you replied that you were taking the one in the middle. Growling with dissatisfaction, the swindler kicked the middle box - the fourth was buried under it." //fixme:quotation
 		},
 		"graphics":
 		{

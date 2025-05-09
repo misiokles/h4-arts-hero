@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Archmage's Codex",
-			"description": "Allows hero to cast all spells in existence on expert level.",
-			"event": ""
+			"description": "{Archmage's Codex}\r\n\r\nAllows hero to cast all spells in existence on expert level.",
+			"event": "You were hunting down some game for dinner when a black dragon suddenly appeared and pinned you to the ground with its giant paw. His hot breath burned your skin. The dragon noisily inhaled through his nostrils. Well, that's it! It seems that you are finished... But the monster said: ''You are the chosen one! I'll have to look for breakfast elsewhere.'' The dragon soared up, leaving you unharmed. Rising up, you found the Archmage's Codex at your feet." //Fixme: the quotes aren't done properly
 		},
 		"graphics":
 		{

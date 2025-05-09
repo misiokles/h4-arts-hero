@@ -7,9 +7,9 @@
 		"value": 5000,	
 		"text":
 		{
-			"name": "Ring Of The Witch",
-			"description": "Reduces the number of casts of hostile creatures by 1.",
-			"event": ""
+			"name": "Ring of The Witch",
+			"description": "{Ring of the Witch}\r\n\r\nReduces the number of casts of hostile creatures by 1.",
+			"event": "During your travels, you meet an elderly necromancer. He tells you about the witch that annoys him very much. When you come to the witch, she asks not to kill her and promises not to annoy the necromancer. To thank you for that service, she gives you the Ring of the Witch."
 		},
 		"graphics":
 		{

@@ -7,9 +7,9 @@
 		"value": 3000,	
 		"text":
 		{
-			"name": "Bestiary",
-			"description": "Adds all Summon Elementals hero's spellbook.",
-			"event": ""
+			"name": "Elemental Bestiary",
+			"description": "{Elemental Bestiary}\r\n\r\nAdds all Summon Elementals hero's spellbook.",
+			"event": "When you were busy preparing for your modest meal, a man approached you and introduced himself as a seller of foreign books. He was desperately trying to sell you his first book. Out of curiosity, you decided to take a look at what he had, and immediately realized that this fool had no idea what he owned. You agreed to buy one tome from him for a few pieces of silver and, advising him to do something else, you left, holding the Elemental Bestiary in your hands."
 		},
 		"graphics":
 		{

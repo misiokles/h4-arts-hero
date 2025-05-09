@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Crusader's Mace",
-			"description": "All friendly targets do +15% damage.",
-			"event": ""
+			"description": "{Crusader's Mace}\r\n\r\nAll friendly creatures do +15% damage.",
+			"event": "While your horse was peacefully nibbling grass, a man suddenly attacked you, trying to crush your head with the Crusader's Mace. Having quickly dealt with the villain, you took his weapon for yourself. Such a noble weapon should not be in the hands of scoundrels!"
 		},
 		"graphics":
 		{

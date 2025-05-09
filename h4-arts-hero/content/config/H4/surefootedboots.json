@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Surefooted Boots",
-			"description": "Increases the hero's movement on land by 150.",
-			"event": ""
+			"description": "{Surefooted Boots}\r\n\r\nIncreases the hero's movement on land by 150.",
+			"event": "This morning you discovered traces of the ogre and decided to follow him. What if he's not alone here? Fortunately, the ogre had no relatives. Around noon, you witnessed him pick up a large rock and hide something underneath it. When he disappeared into the thicket of the forest, you made a small dig under this stone and found a pair of shoes there. They fit you perfectly, as if they were made to your measurements!"
 		},
 		"graphics":
 		{

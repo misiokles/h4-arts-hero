@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Logbook of the Master Sailor",
-			"description": "Gives a hero +50% movement over the sea.",
-			"event": ""
+			"description": "{Logbook of the Master Sailor}\r\n\r\nGives a hero +50% movement over the sea.",
+			"event": "No one will believe how the Logbook of the Master Sailor came into your hands. And you yourself can hardly believe it! But the truth is, you were just riding your horse, lost in thought, when a logbook fell from the sky, knocking you out of the saddle. It's good that this book didn't kill you!"
 		},
 		"graphics":
 		{

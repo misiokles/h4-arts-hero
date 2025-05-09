@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Ring of the Elementals",
-			"description": "All Summon Elemental spells create twice as many creatures as normal.",
-			"event": ""
+			"description": "{Ring of the Elementals}\r\n\r\nAll Summon Elemental spells create twice as many creatures as normal.",
+			"event": "While examining the behemoth's dung pile and trying to figure out how long ago it passed here, you found the Ring of the Elementals. Let's hope you have better luck than its previous owner."
 		},
 		"graphics":
 		{

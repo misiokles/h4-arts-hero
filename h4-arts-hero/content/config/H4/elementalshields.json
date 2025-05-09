@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Shield of Chaos",
-			"description": "Gives all friendly targets expert Protection From Water. It also gives the hero +3 Defense.",
-			"event": ""
+			"description": "{Shield of Chaos}\r\n\r\nGives all friendly creatures Expert Protection From Water. It also gives the hero +3 Defence.",
+			"event": "You saw two skeletons sprawled on the ground in front of you - two warriors who had fallen in battle. One of them still clutched his shield, untouched by time. Marvelous! Although the Chaos Shield didn't help this poor guy, maybe it will bring you more luck."
 		},
 		"graphics":
 		{
@@ -39,8 +39,8 @@
 		"text":
 		{
 			"name": "Shield of Order",
-			"description": "Gives all friendly targets expert Protection From Fire. It also gives the hero +3 Defense.",
-			"event": ""
+			"description": "{Shield of Order}\r\n\r\nGives all friendly creatures Expert Protection From Fire. It also gives the hero +3 Defence.",
+			"event": "At the edge of the road stood a statue, cracked and covered with moss. Strange, but in its hand there was a real shield, as if it had once been a person - maybe a knight who looked into the eyes of the Medusa... Looking around, you decided to take the shield. With great difficulty you managed to snatch the Shield of Order from the stone hands of the statue."
 		},
 		"graphics":
 		{
@@ -70,8 +70,8 @@
 		"text":
 		{
 			"name": "Shield of Air",
-			"description": "Gives all friendly targets expert Protection From Earth. It also gives the hero +3 Defense.",
-			"event": ""
+			"description": "{Shield of Air}\r\n\r\nGives all friendly creatures Expert Protection From Earth. It also gives the hero +3 Defence.",
+			"event": "Strange picture. It's not every day you see a bronze gong and hammer hanging on a tree. Having become interested, you approached the tree on your horse, looked around to see if anyone was watching you, and hit the gong. Instead of a ringing sound, there was a blinding flash that knocked you off your feet. When you woke up, the Shield of Air was already hanging on the tree."
 		},
 		"graphics":
 		{
@@ -101,8 +101,8 @@
 		"text":
 		{
 			"name": "Organic Shield",
-			"description": "Gives all friendly targets expert Protection From Air. It also gives the hero +3 Defense.",
-			"event": ""
+			"description": "{Ruinous Shield}\r\n\r\nGives all friendly creatures Expert Protection From Air. It also gives the hero +3 Defence.",
+			"event": "Having approached the pond, you noticed that everything around seemed to have died out: all the plants had turned to dust, not a single animal or bird was visible in the entire area. But this was not just a dead place. Taking a closer look, you discovered a Ruinous Shield in the water. Of course you took it with you. Perhaps this place will come to life someday?"
 		},
 		"graphics":
 		{

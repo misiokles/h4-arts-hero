@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Staff of Power",
-			"description": "Increases spell power and spell duration for all creatures in army by 50%.",
-			"event": ""
+			"description": "{Staff of Power}\r\n\r\nIncreases spell power and spell duration for all creatures in army by 50%.",
+			"event": "You’ve already covered a lot this day, and you still have a long way to go. By the time your warhorse stumbled and threw you to the ground, you had already decided that enough was enough for today. Lying on the ground, you realized that through no fault of your own you fell off your horse - a long stick was sticking out of the ground. How she ended up there is unclear. You took a closer look - and all your ailments instantly stopped bothering you, because you had just found the Staff of Power!"
 		},
 		"graphics":
 		{

@@ -9,7 +9,7 @@
 		{
 			"name": "Mage's Robe",
 			"description": "{Mage's Robe}\r\n\r\nReduces cost of all spells by 1.",
-			"event": "You came across a boy who was wearing a smart wizard’s hat and a robe that was too big for him. Lunging his twig in your direction, he shouted: ''Ha! I hit you with my magic wand!'' You laughed and began to play with him, pretending to be a knight and defending yourself with a wooden dagger. When it was time to leave, the boy exchanged this dagger with you for his hat and robe - now he wanted to be a knight. The hat was a useless thing, but the robe turned out to be a real magician's robe." //fixme: quotatation
+			"event": "You came across a boy who was wearing a smart wizard’s hat and a robe that was too big for him. Lunging his twig in your direction, he shouted: ''Ha! I hit you with my magic wand!'' You laughed and began to play with him, pretending to be a knight and defending yourself with a wooden dagger. When it was time to leave, the boy exchanged this dagger with you for his hat and robe - now he wanted to be a knight. The hat was a useless thing, but the robe turned out to be a real magician's robe." //fixme: quotation
 		},
 		"graphics":
 		{

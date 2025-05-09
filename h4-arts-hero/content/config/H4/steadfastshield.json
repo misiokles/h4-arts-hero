@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Steadfast Shield",
-			"description": "Gives all friendly targets +15% damage resistance. It also gives the hero +3 Defense. ",
-			"event": ""
+			"description": "{Steadfast Shield}\r\n\r\nGives all friendly targets +15% damage resistance. It also gives the hero +3 Defense. ",
+			"event": "You were invited to a large multi-colored tent for a celebration... but the celebration of what, it seems, the participants of the festivities themselves did not know, which was very suspicious. Wisely skipping the toast, you grabbed a large tray of fruit and pretended to be a waiter. Having chosen the right moment, you got out of this strange place. Only after shaking the food off the tray did you notice that you were holding a Steadfast Shield in your hands."
 		},
 		"graphics":
 		{

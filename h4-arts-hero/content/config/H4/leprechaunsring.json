@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Leprechaun's Ring",
-			"description": "Gives +2 luck to all friendly targets.",
-			"event": ""
+			"description": "{Leprechaun's Ring}\r\n\r\nGives +2 luck to the hero.",
+			"event": "You were picking mushrooms for your evening soup when you found a Leprechaun Ring under one of the mushroom caps."
 		},
 		"graphics":
 		{

@@ -8,8 +8,8 @@
 		"text":
 		{
 			"name": "Saint Ranan's Staff",
-			"description": "Doubles the effect of all healing spells. Adds expert Resurrection to hero's spellbook.",
-			"event": ""
+			"description": "{Saint Ranan's Staff}\r\n\r\nDoubles the effect of all healing and ressurecting spells. Adds Expert Resurrection to hero's spellbook.",
+			"event": "The light from the fire led you to a lonely burning house. Having burst in there, you noticed the old priest - having inhaled smoke, he was lying on the floor. You pulled him out, but it was too late to save the house. Coming to his senses, the priest shook his head: ''It was a healing house, but now it is no longer there. No more! It's a sign! Be kind, take this for yourself and use it for good!'', he said, handing you the Saint Ranan's Staff." //fixme:quotation
 		},
 		"graphics":
 		{

@@ -9,31 +9,35 @@
 		{
 			"name": "Sword of the Gods",
 			"description": "{Sword of the Gods}\r\n\r\nIncreases the hero's Attack and Defense by 3. All friendly targets do +25% damage.",
-			"event": "I wonder why the Sword of the Gods is lying in the middle of the field? You turned your gaze to the sky, thinking maybe this legendary weapon was a gift from heaven. ''If so, why did they choose me?'' – you thought, picking up the blade."
+			"event": "I wonder why the Sword of the Gods is lying in the middle of the field? You turned your gaze to the sky, thinking maybe this legendary weapon was a gift from heaven. \"If so, why did they choose me?\" – you thought, picking up the blade."
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/swordOfGods.bmp",
-			"map": "H4/map/SWORDOFGODS.def"
+			"map": "H4/map/SWORDOFGODS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 3
 			},
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"damageBoth" :
 			{
 				"type": "CREATURE_DAMAGE",
 				"subtype": "creatureDamageBoth",
 				"val": 25,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

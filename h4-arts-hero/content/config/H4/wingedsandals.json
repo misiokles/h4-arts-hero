@@ -14,14 +14,16 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/wingedSandals.bmp",
-			"map": "H4/map/WINGEDSANDALS.def"
+			"map": "H4/map/WINGEDSANDALS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"stackSpeed" :
 			{
 				"type": "STACKS_SPEED",
 				"val": 1
 			}
-		]
+		}
 	}
 }

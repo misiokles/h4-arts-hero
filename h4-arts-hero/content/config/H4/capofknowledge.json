@@ -9,24 +9,27 @@
 		{
 			"name": "Cap of Knowledge",
 			"description": "{Cap of Knowledge}\r\n\r\nIncreases the hero's knowledge by 2, and regenerates 2 spell points per day",
-			"event": "In the middle of the road you noticed a magical crown. As you dismounted, a thin man jumped out of cover. He tore off the Cap of Knowledge and quickly pulled on the crown. ''Finally I got rid of this stupid hat!'' - he shouted, threw it in your direction and just as quickly disappeared into the thicket of the forest." //Fixme: quotation isn't done properly
+			"event": "In the middle of the road you noticed a magical crown. As you dismounted, a thin man jumped out of cover. He tore off the Cap of Knowledge and quickly pulled on the crown. \"Finally I got rid of this stupid hat!\" - he shouted, threw it in your direction and just as quickly disappeared into the thicket of the forest." 
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/capOfKnowledge.bmp",
-			"map": "H4/map/CAPOFKNOWLEDGE.def"
+			"map": "H4/map/CAPOFKNOWLEDGE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 2
 			},
+			"manaRegen" :
 			{
 				"type": "MANA_REGENERATION",
 				"val": 2
 			}
-		]
+		}
 	}
 }

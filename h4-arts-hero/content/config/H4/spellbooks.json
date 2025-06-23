@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/apprenticesHandbook.bmp",
-			"map": "H4/map/APPRENTICESHANDBOOK.def"
+			"map": "H4/map/APPRENTICESHANDBOOK.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellsOfLevel1" :
 			{
 				"type": "SPELLS_OF_LEVEL",
 				"subtype" : "spellLevel1",
 				"val": 0
 			}
-		]
+		}
 	},
 	"journeymansNotebook":
 	{
@@ -40,16 +42,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/journeymansNotebook.bmp",
-			"map": "H4/map/JOURNEYMANSNOTEBOOK.def"
+			"map": "H4/map/JOURNEYMANSNOTEBOOK.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellsOfLevel2" :
 			{
 				"type": "SPELLS_OF_LEVEL",
 				"subtype" : "spellLevel2",
 				"val": 0
 			}
-		]
+		}
 	},
 	"mastersSpellbook":
 	{
@@ -66,16 +70,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/mastersSpellbook.bmp",
-			"map": "H4/map/MASTERSSPELLBOOK.def"
+			"map": "H4/map/MASTERSSPELLBOOK.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellsOfLevel3" :
 			{
 				"type": "SPELLS_OF_LEVEL",
 				"subtype" : "spellLevel3",
 				"val": 0
 			}
-		]
+		}
 	},
 	"guildmastersCompedium":
 	{
@@ -92,15 +98,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/guildmastersCompendium.bmp",
-			"map": "H4/map/GUILDMASTERSCOMPEDIUM.def"
+			"map": "H4/map/GUILDMASTERSCOMPEDIUM.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellsOfLevel4" :
 			{
 				"type": "SPELLS_OF_LEVEL",
 				"subtype" : "spellLevel4",
 				"val": 0
 			}
-		]
+		}
 	}
 }

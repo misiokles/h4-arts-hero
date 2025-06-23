@@ -9,21 +9,23 @@
 		{
 			"name": "Seven-League Boots",
 			"description": "{Seven-League Boots}\r\n\r\nIncreases the hero's movement on land by 1000.",
-			"event": "You have met a traveler just like you. He stood in front of you, and his eyes were filled with tears. Shaking his head, he said: ''My travels have cost me too much - I have no friends, no family, no happiness. I wouldn't wish this on anyone, but I still have to ask. Will you take my Seven-League Boots? Then I can finally settle down somewhere.'' Having agreed, you left him - sitting alone on a stone and immersed in thoughts about his future." //fixme: quotation
+			"event": "You have met a traveler just like you. He stood in front of you, and his eyes were filled with tears. Shaking his head, he said: \"My travels have cost me too much - I have no friends, no family, no happiness. I wouldn't wish this on anyone, but I still have to ask. Will you take my Seven-League Boots? Then I can finally settle down somewhere.\" Having agreed, you left him - sitting alone on a stone and immersed in thoughts about his future."
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/sevenLeagueBoots.bmp",
-			"map": "H4/map/SEVENLEAGUEBOOTS.def"
+			"map": "H4/map/SEVENLEAGUEBOOTS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"movementLand" :
 			{
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 1000,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

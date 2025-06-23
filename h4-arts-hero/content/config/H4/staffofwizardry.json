@@ -9,15 +9,17 @@
 		{
 			"name": "Staff of Wizardry",
 			"description": "{Staff of Wizardry}\r\n\r\nReduces enemy spell damage resistance by half.",
-			"event": "A crowd of peasants stopped you with a request to judge their dispute. Should they plant beans or spinach? ''The solution here is simple,'' you say. ''If you can't stand spinach, then plant some beans!'' As a reward, they gave you an old staff, which they dug up in their field. They had no idea that it was the Staff of Wizardry!" //fixme: quotation
+			"event": "A crowd of peasants stopped you with a request to judge their dispute. Should they plant beans or spinach? \"The solution here is simple,\" you say. \"If you can't stand spinach, then plant some beans!\" As a reward, they gave you an old staff, which they dug up in their field. They had no idea that it was the Staff of Wizardry!"
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/staffOfWizardry.bmp",
-			"map": "H4/map/STAFFOFWIZARDRY.def"
+			"map": "H4/map/STAFFOFWIZARDRY.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellReduction" :
 			{
 				"type": "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
@@ -27,6 +29,6 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
-		]
+		}
 	}
 }

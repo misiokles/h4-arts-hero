@@ -14,21 +14,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/shieldOfChaos.bmp",
-			"map": "H4/map/SHIELDOFCHAOS.def"
+			"map": "H4/map/SHIELDOFCHAOS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"spellProtectWater" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectWater",
 				"val": 3
 			}
-		]
+		}
 	},
 	"shieldOfOrder":
 	{
@@ -45,21 +48,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/shieldOfOrder.bmp",
-			"map": "H4/map/SHIELDOFORDER.def"
+			"map": "H4/map/SHIELDOFORDER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"protectFire" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectFire",
 				"val": 3
 			}
-		]
+		}
 	},
 	"shieldOfAir":
 	{
@@ -76,21 +82,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/shieldOfAir.bmp",
-			"map": "H4/map/SHIELDOFAIR.def"
+			"map": "H4/map/SHIELDOFAIR.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"protectEarth" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectEarth",
 				"val": 3
 			}
-		]
+		}
 	},
 	"organicShield":
 	{
@@ -107,20 +116,23 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/organicShield.bmp",
-			"map": "H4/map/ORGANICSHIELD.def"
+			"map": "H4/map/ORGANICSHIELD.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"protecAir" :
 			{
 				"type": "ENCHANTED",
 				"subtype": "spell.protectAir",
 				"val": 3
 			}
-		]
+		}
 	}
 }

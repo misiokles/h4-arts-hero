@@ -14,35 +14,41 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/saintRanansStaff.bmp",
-			"map": "H4/map/SAINTRANANSSTAFF.def"
+			"map": "H4/map/SAINTRANANSSTAFF.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"ressurection" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.resurrection",
 				"val": 100
 			},
+			"cure" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.cure",
 				"val": 100
 			},
+			"animateDead" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.animateDead",
 				"val": 100
 			},
+			"sacrifice" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.sacrifice",
 				"val": 100
 			},
+			"resurrection2" :
 			{
 				"type": "SPELL",
 				"subtype": "spell.resurrection",
 				"val": 3
 			}
-		]
+		}
 	}
 }

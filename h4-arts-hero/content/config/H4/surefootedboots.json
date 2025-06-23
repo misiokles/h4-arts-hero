@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/surefootedBoots.bmp",
-			"map": "H4/map/SUREFOOTEDBOOTS.def"
+			"map": "H4/map/SUREFOOTEDBOOTS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"landMovement" :
 			{
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 150,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

@@ -9,23 +9,26 @@
 		{
 			"name": "Mullich's Helm of Leadership",
 			"description": "{Mullich's Helm of Leadership}\r\n\r\nAll friendly creatures get +1 speed and +2 morale.",
-			"event": "''All items are of excellent quality!'' – the merchant shouted. Curious, you stopped to look at his goods. Immediately your gaze fell on Mullich's Helm of Leadership. What a find! Having staged a whole show, you persuaded the merchant to give it to you for a few silver coins. After paying, you quickly left the place." //fixme:quotation
+			"event": "\"All items are of excellent quality!\" – the merchant shouted. Curious, you stopped to look at his goods. Immediately your gaze fell on Mullich's Helm of Leadership. What a find! Having staged a whole show, you persuaded the merchant to give it to you for a few silver coins. After paying, you quickly left the place." 
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/mullichsHelm.bmp",
-			"map": "H4/map/MULLICHSHELM.def"
+			"map": "H4/map/MULLICHSHELM.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"speed" :
 			{
 				"type": "STACKS_SPEED",
 				"val": 1
 			},
+			"morale" :
 			{
 				"type": "MORALE",
 				"val": 2
 			}
-		]
+		}
 	}
 }

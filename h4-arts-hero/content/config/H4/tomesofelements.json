@@ -9,31 +9,35 @@
 		{
 			"name": "Tome of Life",
 			"description": "{Tome of Life}\r\n\r\nAdds Expert Resurrection, Cure and Animate Dead to hero's spellbook.",
-			"event": "Like many other pilgrims, you have reached the hut of a monk living in the wilderness. This monk could resurrect people. After a short conversation, the good-natured old man handed you a gift - the Tome of Life. You refused to accept such a gift, but the monk just shrugged and said: ''The book itself chooses who it wants to be with - and I don’t decide anything. Good luck to you!''" //fixme:quotations
+			"event": "Like many other pilgrims, you have reached the hut of a monk living in the wilderness. This monk could resurrect people. After a short conversation, the good-natured old man handed you a gift - the Tome of Life. You refused to accept such a gift, but the monk just shrugged and said: \"The book itself chooses who it wants to be with - and I don’t decide anything. Good luck to you!\""
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/tomeOfLife.bmp",
-			"map": "H4/map/TOMEOFLIFE.def"
+			"map": "H4/map/TOMEOFLIFE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"resurrection" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.resurrection",
 				"val": 3
 			},
+			"cure" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.cure",
 				"val": 3
 			},
+			"animateDead" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.animateDead",
 				"val": 3
 			}
-		]
+		}
 	},
 	"tomeOfDeath":
 	{
@@ -45,31 +49,35 @@
 		{
 			"name": "Tome of Death",
 			"description": "{Tome of Death}\r\n\r\nAdds Expert Sacrifice, Berserk and Frenzy to hero's spellbook.",
-			"event": "A thin man dressed as a sailor walked straight into you; something bit into his chest. ''My fault... I should have thought with my head... After all, I knew... I should have thrown her back into the sea! Normal books don't float so easily on the open sea...'' The sailor suddenly died right before your eyes. Something fell out of his hands - it was the Tome of Death." //fixme: quotation
+			"event": "A thin man dressed as a sailor walked straight into you; something bit into his chest. \"My fault... I should have thought with my head... After all, I knew... I should have thrown her back into the sea! Normal books don't float so easily on the open sea...\" The sailor suddenly died right before your eyes. Something fell out of his hands - it was the Tome of Death."
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/tomeOfDeath.bmp",
-			"map": "H4/map/TOMEOFDEATH.def"
+			"map": "H4/map/TOMEOFDEATH.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"sacrifice" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.sacrifice",
 				"val": 3
 			},
+			"berserk" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.berserk",
 				"val": 3
 			},
+			"frenzy" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.frenzy",
 				"val": 3
 			}
-		]
+		}
 	},
 	"tomeOfChaos":
 	{
@@ -86,27 +94,31 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/tomeOfChaos.bmp",
-			"map": "H4/map/TOMEOFCHAOS.def"
+			"map": "H4/map/TOMEOFCHAOS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 
 		},
 		"bonuses":
-		[
+		{
+			"armageddon" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.armageddon",
 				"val": 3
 			},
+			"implosion" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.implosion",
 				"val": 3
 			},
+			"chainLightning" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.chainLightning",
 				"val": 3
 			}
-		]
+		}
 	},
 	"tomeOfOrder":
 	{
@@ -123,26 +135,30 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/tomeOfOrder.bmp",
-			"map": "H4/map/TOMEOFORDER.def"
+			"map": "H4/map/TOMEOFORDER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"clone" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.clone",
 				"val": 3
 			},
+			"teleport" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.teleport",
 				"val": 3
 			},
+			"forceField" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.forceField",
 				"val": 3
 			}
-		]
+		}
 	},
 	"tomeOfNature":
 	{
@@ -159,25 +175,29 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/tomeOfNature.bmp",
-			"map": "H4/map/TOMEOFNATURE.def"
+			"map": "H4/map/TOMEOFNATURE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"dispel" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.dispel",
 				"val": 3
 			},
+			"quickSand" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.quicksand",
 				"val": 3
 			},
+			"townPortal" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.townPortal",
 				"val": 3
 			}
-		]
+		}
 	}
 }

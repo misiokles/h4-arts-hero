@@ -14,10 +14,12 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/ringOfTheWitch.bmp",
-			"map": "H4/map/RINGOFTHEWITCH.def"
+			"map": "H4/map/RINGOFTHEWITCH.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"casts" :
 			{
 				"type": "CASTS",
 				"val" : -1,
@@ -25,6 +27,6 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
-		]
+		}
 	}
 }

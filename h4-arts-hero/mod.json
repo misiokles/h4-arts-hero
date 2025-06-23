@@ -3,16 +3,17 @@
 	"description" : "Artifacts from Heroes of Might & Magic 4",
 	"author": "Graphics: Kuririn, mod : Warmonger",
 	"contact": "http://forum.vcmi.eu/viewtopic.php?t=686",
-	"version" : "1.06",
+	"version" : "1.07",
 	"modType" : "Artifacts",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.7.0"
 	},	
 	"changelog" :
 	{
-                "1.06"   : [ "Added events to the artifacts, fixed some descriptions to be more in Heroes 3 style" ],
-                "1.05"   : [ "Polish translation added by FallainBlack" ],
+        "1.07"   : [ "Update to vcmi-1.7 format" ],
+		"1.06"   : [ "Added events to the artifacts, fixed some descriptions to be more in Heroes 3 style" ],
+        "1.05"   : [ "Polish translation added by FallainBlack" ],
 		"1.04"   : [ "Conversion to vcmi-1.4 format" ],
 		"1.03"   : [ "Conversion to vcmi-1.2 format" ],
 		"1.02"   : [ "Fixes" ],

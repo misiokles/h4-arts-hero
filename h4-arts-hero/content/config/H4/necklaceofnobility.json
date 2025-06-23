@@ -14,52 +14,60 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/necklaceOfNobility.bmp",
-			"map": "H4/map/NECKLACEOFNOBILITY.def"
+			"map": "H4/map/NECKLACEOFNOBILITY.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"gold" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.gold",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"wood" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.wood",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"ore" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.ore",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"mercury" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.mercury",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"sulfur" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.sulfur",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"crystal" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.crystal",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"gems" :
 			{
 				"type": "GENERATE_RESOURCE",
 				"subtype" : "resource.gems",
 				"val": 100,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/davidsSling.bmp",
-			"map": "H4/map/DAVIDSSLING.def"
+			"map": "H4/map/DAVIDSSLING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"slayer" :
 			{
 				"subtype" : "spell.slayer",
 				"type" : "ENCHANTED",
 				"val" : 3,
 				"limiters" : ["SHOOTER_ONLY"]
 			}
-		]
+		}
 	}
 }

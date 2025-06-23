@@ -9,15 +9,17 @@
 		{
 			"name": "Bow of the Elf King",
 			"description": "{Bow of the Elven King}\r\n\r\nWhen worn, grants an additional strike each round to all shooting creatures in a hero's army.",
-			"event": "A kind woman came up to you and handed you a long object wrapped in an old rag. ''Please help me,'' she said. ''Of course,'' you replied. She handed you a package with the words: ''My son found this - it was hidden under the stump of an old tree. I'm afraid he'll just gouge someone's eye out with it. Please take this away.'' You agreed. When the woman left, you unwrapped the package - there was the Bow of the Elven King." //Fixme: quotation is done incorrectly
+			"event": "A kind woman came up to you and handed you a long object wrapped in an old rag. \"Please help me,\" she said. \"Of course,\" you replied. She handed you a package with the words: \"My son found this - it was hidden under the stump of an old tree. I'm afraid he'll just gouge someone's eye out with it. Please take this away.\" You agreed. When the woman left, you unwrapped the package - there was the Bow of the Elven King."
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/bowOfTheElfKing.bmp",
-			"map": "H4/map/BOWOFTHEELFKING.def"
+			"map": "H4/map/BOWOFTHEELFKING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"plusAttack" :
 			{
 				"type": "ADDITIONAL_ATTACK",
 				"val" : 1,
@@ -30,6 +32,6 @@
 					}
 				]
 			}
-		]
+		}
 	}
 }

@@ -14,29 +14,35 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/ringOfTheElementals.bmp",
-			"map": "H4/map/RINGOFTHEELEMENTALS.def"
+			"map": "H4/map/RINGOFTHEELEMENTALS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"fire" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype" : "spell.fireElemental",
 				"val" : 100
-			},			{
+			},		
+			"water" :
+			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype" : "spell.waterElemental",
 				"val" : 100
 			},
+			"air" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype" : "spell.airElemental",
 				"val" : 100
 			},
+			"earth" :
 			{
 				"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype" : "spell.earthElemental",
 				"val" : 100
 			}
-		]
+		}
 	}
 }

@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/crystalOrb.bmp",
-			"map": "H4/map/CRYSTALORB.def"
+			"map": "H4/map/CRYSTALORB.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"sightRadius" :
 			{
 				"type": "SIGHT_RADIUS", 
 				"val": 8,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

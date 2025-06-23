@@ -9,21 +9,23 @@
 		{
 			"name": "Sextant",
 			"description": "{Sextant}\r\n\r\nGives a hero +25% movement over the sea.",
-			"event": "At a local tavern, three healthy men beat up one small guy. You decided to stand up for this poor fellow and dispersed the thugs, although... although one of them still managed to stab the poor fellow with a knife. But before he died, he handed you his Sextant. ''Don't let him fall into the hands of that brat,'' he said." //fixme:quotations
+			"event": "At a local tavern, three healthy men beat up one small guy. You decided to stand up for this poor fellow and dispersed the thugs, although... although one of them still managed to stab the poor fellow with a knife. But before he died, he handed you his Sextant. \"Don't let him fall into the hands of that brat,\" he said." 
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/sextant.bmp",
-			"map": "H4/map/SEXTANT.def"
+			"map": "H4/map/SEXTANT.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"seaMovement" :
 			{
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 25,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

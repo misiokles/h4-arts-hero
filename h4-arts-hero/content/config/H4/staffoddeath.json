@@ -9,15 +9,17 @@
 		{
 			"name": "Staff of Imminent Death",
 			"description": "{Staff of Imminent Death}\r\n\r\nReduces enemy magic resistance by half.",
-			"event": "Having sneaked into the necromancers' guild you stole the Staff of Imminent Death from its place on the pedestal. You couldn't let it fall into the wrong hands, could you? And then, without attracting attention, you emerged from the building along with your trophy. There was only one thought running through your head: ''Why can't everything else be that simple?''" //fixme: quotation
+			"event": "Having sneaked into the necromancers' guild you stole the Staff of Imminent Death from its place on the pedestal. You couldn't let it fall into the wrong hands, could you? And then, without attracting attention, you emerged from the building along with your trophy. There was only one thought running through your head: \"Why can't everything else be that simple?\"" 
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/staffOfDeath.bmp",
-			"map": "H4/map/STAFFOFDEATH.def"
+			"map": "H4/map/STAFFOFDEATH.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"magicResistance" :
 			{
 				"type": "MAGIC_RESISTANCE",
 				"val": -50,
@@ -26,6 +28,6 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
-		]
+		}
 	}
 }

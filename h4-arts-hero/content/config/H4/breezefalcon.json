@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/breezeFalcon.bmp",
-			"map": "H4/map/BREEZEFALCON.def"
+			"map": "H4/map/BREEZEFALCON.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"sightRadius" :
 			{
 				"type": "SIGHT_RADIUS", 
 				"val": 2,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

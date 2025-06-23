@@ -14,25 +14,29 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/steadfastShield.bmp",
-			"map": "H4/map/STEADFASTSHIELD.def"
+			"map": "H4/map/STEADFASTSHIELD.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"damageMelee" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeMelee",
 				"val": 15
 			},
+			"damageRanged" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeRanged",
 				"val": 15
 			}
-		]
+		}
 	}
 }

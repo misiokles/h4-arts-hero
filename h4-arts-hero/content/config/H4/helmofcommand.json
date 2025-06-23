@@ -9,35 +9,40 @@
 		{
 			"name": "Helm of Command",
 			"description": "{Helm of Command}\r\n\r\nAll friendly creatures get +5% to their damage and +5% to their damage resitance, and +1 to their speed.",
-			"event": "You have given way to an approaching funeral procession. A column of funeral procession soldiers in polished armor marched past you. Finally, a carriage carrying a coffin with a lady sitting on it came alongside you. She ordered the cart to stop and motioned for you to come. ''These things belonged to my husband. He was a brave man and died performing a great deed. His last wish was for me to give his belongings to a traveler like you. Good luck to you, wanderer!''" //Fixme: quotation
+			"event": "You have given way to an approaching funeral procession. A column of funeral procession soldiers in polished armor marched past you. Finally, a carriage carrying a coffin with a lady sitting on it came alongside you. She ordered the cart to stop and motioned for you to come. \"These things belonged to my husband. He was a brave man and died performing a great deed. His last wish was for me to give his belongings to a traveler like you. Good luck to you, wanderer!\""
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/helmOfCommand.bmp",
-			"map": "H4/map/HELMOFCOMMAND.def"
+			"map": "H4/map/HELMOFCOMMAND.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"stackSpeed" :
 			{
 				"type": "STACKS_SPEED",
 				"val": 1
 			},
+			"meleeDamageReduction" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeMelee",
 				"val": 5
 			},
+			"rangedDamageReduction" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeRanged",
 				"val": 5
 			},
+			"creatureDamage" :
 			{
 				"type": "CREATURE_DAMAGE",
 				"subtype": "creatureDamageBoth",
 				"val": 5,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

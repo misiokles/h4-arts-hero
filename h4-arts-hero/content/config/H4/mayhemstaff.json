@@ -9,19 +9,21 @@
 		{
 			"name": "Mayhem Staff",
 			"description": "{Mayhem Staff}\r\n\r\nAll destructive spells do 50% more damage.",
-			"event": "''Stop!'' - shouted the shaggy goblin, jumping out of the bushes. He pointed some kind of gnarled staff at you: ''Give me your gold here, and don't come any closer, this is a dangerous thing!'' But as soon as you stepped forward, the goblin ran away with a wild cry, throwing his staff. Picking up the inept bandit's weapon, you realized that it was indeed reckless to go up against a goblin armed with a Mayhem Staff. You can say that you are incredibly lucky!" //fixme:quotation
+			"event": "\"Stop!\" - shouted the shaggy goblin, jumping out of the bushes. He pointed some kind of gnarled staff at you: \"Give me your gold here, and don't come any closer, this is a dangerous thing!\" But as soon as you stepped forward, the goblin ran away with a wild cry, throwing his staff. Picking up the inept bandit's weapon, you realized that it was indeed reckless to go up against a goblin armed with a Mayhem Staff. You can say that you are incredibly lucky!" 
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/mayhemStaff.bmp",
-			"map": "H4/map/MAYHEMSTAFF.def"
+			"map": "H4/map/MAYHEMSTAFF.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellDamage" :
 			{
 				"type": "SPELL_DAMAGE",
 				"val": 50
 			}
-		]
+		}
 	}
 }

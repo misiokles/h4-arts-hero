@@ -14,14 +14,16 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/marantheasMug.bmp",
-			"map": "H4/map/MARANTHEASMUG.def"
+			"map": "H4/map/MARANTHEASMUG.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"morale" :
 			{
 				"type": "MORALE",
 				"val": 3
 			}
-		]
+		}
 	}
 }

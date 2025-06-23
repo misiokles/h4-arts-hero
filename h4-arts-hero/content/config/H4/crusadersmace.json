@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/crusadersMace.bmp",
-			"map": "H4/map/CRUSADERSMACE.def"
+			"map": "H4/map/CRUSADERSMACE.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"creatureDamage" :
 			{
 				"type": "CREATURE_DAMAGE",
 				"subtype": "creatureDamageBoth",
 				"val": 15,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

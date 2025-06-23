@@ -14,20 +14,23 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/staffOfPower.bmp",
-			"map": "H4/map/STAFFOFPOWER.def"
+			"map": "H4/map/STAFFOFPOWER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellPower" :
 			{
 				"type": "CREATURE_SPELL_POWER",
 				"val": 50,
 				"valueType": "PERCENT_TO_ALL"
 			},
+			"enchantPower" :
 			{
 				"type": "CREATURE_ENCHANT_POWER",
 				"val": 50,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

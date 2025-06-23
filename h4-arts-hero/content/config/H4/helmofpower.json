@@ -14,19 +14,22 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/helmOfPower.bmp",
-			"map": "H4/map/HELMOFPOWER.def"
+			"map": "H4/map/HELMOFPOWER.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 4
 			},
+			"manaRegen" :
 			{
 				"type": "MANA_REGENERATION",
 				"val": 4
 			}
-		]
+		}
 	}
 }

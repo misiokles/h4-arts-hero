@@ -14,19 +14,22 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/wizardsRing.bmp",
-			"map": "H4/map/WIZARDSRING.def"
+			"map": "H4/map/WIZARDSRING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"knowledge" : 
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 1
 			},
+			"manaRegeneration" :
 			{
 				"type": "MANA_REGENERATION",
 				"val": 1
 			}
-		]
+		}	
 	}
 }

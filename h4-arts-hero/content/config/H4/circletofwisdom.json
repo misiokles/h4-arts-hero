@@ -9,24 +9,27 @@
 		{
 			"name": "Circlet of Wisdom",
 			"description": "{Circlet of Wizdom}\r\n\r\nIncreases the hero's knowledge by 3, and regenerates 3 spell points per day",
-			"event": "Sitting in a local tavern, you noticed a learned lady at the next table. You sat down to chat with her and charmed her with your intelligence. But now the time has come to leave. You apologized to her, and she handed you the Circlet of Wisdom. ''If you need a job, you will find me in the Celestean School of Arcane,'' she said finally." //Fixme: quotation
+			"event": "Sitting in a local tavern, you noticed a learned lady at the next table. You sat down to chat with her and charmed her with your intelligence. But now the time has come to leave. You apologized to her, and she handed you the Circlet of Wisdom. \"If you need a job, you will find me in the Celestean School of Arcane,\" she said finally."
 		},
 		"graphics":
 		{
 			"image": "H4/iconsSmall/circletOfWisdom.bmp",
-			"map": "H4/map/CIRCLETOFWISDOM.def"
+			"map": "H4/map/CIRCLETOFWISDOM.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 3
 			},
+			"manaRegen" :
 			{
 				"type": "MANA_REGENERATION",
 				"val": 3
 			}
-		]
+		}
 	}
 }

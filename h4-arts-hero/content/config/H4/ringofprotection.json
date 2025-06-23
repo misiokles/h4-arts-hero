@@ -14,20 +14,23 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/ringOfProtection.bmp",
-			"map": "H4/map/RINGOFPROTECTION.def"
+			"map": "H4/map/RINGOFPROTECTION.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"damageMelee" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeMelee",
 				"val": 5
 			},
+			"damageRanged" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeRanged",
 				"val": 5
 			}
-		]
+		}
 	}
 }

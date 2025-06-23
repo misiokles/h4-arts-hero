@@ -14,30 +14,35 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/bestiary.bmp",
-			"map": "H4/map/BESTIARY.def"
+			"map": "H4/map/BESTIARY.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"fireElementalSpell" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.fireElemental",
 				"val": 0
 			},
+			"earthElementalSpell" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.earthElemental",
 				"val": 0
 			},
+			"waterElementalSpell" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.waterElemental",
 				"val": 0
 			},
+			"airElementalSpell" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.airElemental",
 				"val": 0
 			}
-		]
+		}
 	}
 }

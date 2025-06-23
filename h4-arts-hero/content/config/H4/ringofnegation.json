@@ -14,13 +14,15 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/ringOfNegation.bmp",
-			"map": "H4/map/RINGOFNEGATION.def"
+			"map": "H4/map/RINGOFNEGATION.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"receptive" :
 			{
 				"type": "RECEPTIVE"
 			}
-		]
+		}
 	}
 }

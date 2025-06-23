@@ -14,25 +14,29 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/adamantineShield.bmp",
-			"map": "H4/map/ADAMANTINESHIELD.def"
+			"map": "H4/map/ADAMANTINESHIELD.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 3
 			},
+			"meleeDamageReduction" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeMelee",
 				"val": 25
 			},
+			"rangedDamageReduction" :
 			{
 				"type": "GENERAL_DAMAGE_REDUCTION",
 				"subtype": "damageTypeRanged",
 				"val": 25
 			}
-		]
+		}
 	}
 }

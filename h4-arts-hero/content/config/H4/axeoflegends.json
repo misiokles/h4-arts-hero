@@ -14,21 +14,24 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/axeOfLegends.bmp",
-			"map": "H4/map/AXEOFLEGENDS.def"
+			"map": "H4/map/AXEOFLEGENDS.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 4
 			},
+			"creatureDamage" :
 			{
 				"type": "CREATURE_DAMAGE",
 				"subtype": "creatureDamageBoth",
 				"val": 20,
 				"valueType": "PERCENT_TO_ALL"
 			}
-		]
+		}
 	}
 }

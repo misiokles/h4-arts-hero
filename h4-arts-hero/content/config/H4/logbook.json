@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/logbookOfTheMasterSailor.bmp",
-			"map": "H4/map/LOGBOOK.def"
+			"map": "H4/map/LOGBOOK.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"seaMovement" :
 			{
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 50,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

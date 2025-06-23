@@ -14,14 +14,16 @@
 		"graphics":
 		{
 			"image": "H4/iconsSmall/leprechaunsRing.bmp",
-			"map": "H4/map/LEPRECHAUNSRING.def"
+			"map": "H4/map/LEPRECHAUNSRING.def",
+			"scenarioBonus" : "H4/scenarioBonuses/bonusBlank.png"
 		},
 		"bonuses":
-		[
+		{
+			"luck" :
 			{
 				"type": "LUCK",
 				"val": 2
 			}
-		]
+		}
 	}
 }
